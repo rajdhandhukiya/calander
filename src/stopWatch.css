@@ -1,0 +1,49 @@
+.main_stopWatch {
+    text-align: center;
+}
+
+.btn_stopTimer {
+    background: transparent;
+    border: 1px solid #8c8080;
+    color: #fff;
+    height: auto;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px -1px rgb(66 60 66);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn_stopTimer:hover, .btn_stopTimer:focus {
+    background: #8c8080;
+    color: white;
+    border: #8c8080;
+}
+
+.main_stopWatch {
+    background-color: #a49494;
+    height: 93.6vh;
+}
+
+.p_stopWatch {
+    color: white;
+    font-family: fantasy !important;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.input_text {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #8c8080;
+}
+
+.timerText {
+    font-size: 300px;
+    color: #8c8080;
+    font-family: fantasy !important;
+}

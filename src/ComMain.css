@@ -1,0 +1,20 @@
+.main{
+    display: flex !important;
+    align-items: center !important;
+    justify-content:space-around !important; 
+}
+.forloop{
+    text-align: center !important;
+}
+.forloop:nth-child(odd){
+    background-color: #d3d3d3 !important;
+}
+.forloop:nth-child(even){
+    background-color: #f8f8f8 !important;
+}
+.table_main{
+    width: 25% !important;
+}
+td{
+    padding: 0px !important;
+}
