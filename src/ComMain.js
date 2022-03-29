@@ -84,7 +84,7 @@ function ComMain() {
           <tbody>
             <tr>
               <td >{looping}</td>
-              <td>{whileloop}</td>
+              <td>{whileloop}</td> 
               <td>{doWhileloop}</td>
             </tr>
           </tbody>

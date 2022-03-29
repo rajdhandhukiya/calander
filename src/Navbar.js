@@ -22,11 +22,14 @@ function NavbarCom() {
             <Nav.Link>
               <Link to="/Calander">Calander</Link>
             </Nav.Link>
-            <Nav.Link>
+            {/* <Nav.Link>
               <Link to="/CalanderDemo">CalanderDemo</Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <Link to="/StopWatch">StopWatch</Link>
+            </Nav.Link> 
+            <Nav.Link>
+              <Link to="/TableCom">TableCom</Link>
             </Nav.Link>
           </Nav>
         </Container>

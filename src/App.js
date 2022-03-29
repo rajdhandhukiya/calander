@@ -1,12 +1,13 @@
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import Calander from "./Calander";
-import CalanderDemo from "./CalanderDemo";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+
 import ComHeader from "./Com";
 import ComMain from "./ComMain";
-import FormComponent from "./Form";
 import NavbarCom from "./Navbar";
+import Calander from "./Calander";
+import FormComponent from "./Form";
 import StopWatch from "./StopWatch";
+import TableCom  from "./Table";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           <Route path="/ComMain" component={ComMain} />
           <Route path="/FormCom" component={FormComponent} />
           <Route path="/Calander" component={Calander} />
-          <Route path="/CalanderDemo" component={CalanderDemo} />
           <Route path="/StopWatch" component={StopWatch} />
+          <Route path="/TableCom" component={TableCom} />
         </Switch>
       </Router>
       <ToastContainer />

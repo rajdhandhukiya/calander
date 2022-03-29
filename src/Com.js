@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+
+import '../src/Com.css'
 function ComHeader() {
   const [num1, setNum1] = useState();
   const [num2, setNum2] = useState();
@@ -27,28 +29,14 @@ function ComHeader() {
         break;
       }
     }
-    // var arr = num3;
-    //     for (let index = 0; index <= arr; index++) {
-    //         document.write(index+"<br>")
-    //       }
-
-    // var index = 0
-    //   while(index<= num3){
-    //     document.write(index + "<br>")
-    //     index++
-    //   }
-
-    // do{
-    //   document.write(index + "<br>")
-    //   index++
-    // }while(index<= num3)
-    // return  0
+  
   };
   return (
     <div>
       <div className="App">
         <div>
           <input
+          className="input_First"
             type="number"
             onChange={(e) => {
               setNum1(e.target.value);
@@ -56,36 +44,37 @@ function ComHeader() {
           />
           <input
             type="number"
+            className="input_First"
             onChange={(e) => {
               setNum2(e.target.value);
             }}
           />
           <p>=</p>
-          <div className="result">{num3}</div>
+          <div className="result">{num3?num3:0 }</div>
         </div>
         <div>
-          <button className="btn btn-primary mx-3"
+          <button className="button_Oparator1 mx-3"
             onClick={() => {
               handleClick("+");
             }}
           >
             +
           </button>
-          <button className="btn btn-primary mx-3"
+          <button className="button_Oparator2 mx-3"
             onClick={() => {
               handleClick("-");
             }}
           >
             -
           </button>
-          <button className="btn btn-primary mx-3"
+          <button className="button_Oparator3 mx-3"
             onClick={() => {
               handleClick("*");
             }}
           >
             *
           </button>
-          <button className="btn btn-primary mx-3"
+          <button className="button_Oparator4 mx-3"
             onClick={() => {
               handleClick("/");
             }}

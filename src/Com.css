@@ -1,0 +1,56 @@
+.input_First{
+    width: auto;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #d4d4d4;
+    border: #d4d4d4;
+    padding-left: 10px;
+    margin-right: 25px;
+}
+.button_Oparator1{
+    background-color: #2d996e;
+    padding: 8px 25px;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+}
+.button_Oparator1:hover{
+    background-color: rgb(95, 95, 209);
+}
+
+.result{
+     
+}
+
+.button_Oparator2{
+    background-color: #384cbd;
+
+    padding: 8px 25px;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+}
+.button_Oparator2:hover{
+    background-color: #c23f71;
+}
+
+.button_Oparator3{
+    background-color: #2d996e;
+    padding: 8px 25px;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+}
+.button_Oparator3:hover{
+    background-color: #1f6aa7;
+}
+.button_Oparator4{
+    background-color: #384cbd;
+    padding: 8px 25px;
+    border-radius: 10px;
+    color: white;
+    transition: 1s; 
+}
+.button_Oparator4:hover{
+    background-color: #a3c000;
+}

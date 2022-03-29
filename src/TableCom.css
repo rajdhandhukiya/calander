@@ -1,0 +1,14 @@
+.Table_main{
+    
+}
+.Red_Alert{
+    background-color: rgb(204, 31, 31) !important;
+    color: yellow !important;
+}
+.Yellow_Color{
+    background-color: rgb(211, 211, 45) !important;
+    color: red !important;
+}
+.add_button{
+    margin: 20px
+}
